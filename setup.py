@@ -39,19 +39,19 @@ install_requirements = [
 ]
 
 setup(
-    name="mozilla-django-oidc",
+    name="mozilla-django-oidc-keycloak-fix",
     version=VERSION,
     description="""A lightweight authentication and access management library for integration with OpenID Connect enabled authentication services.""",  # noqa
     long_description=readme + "\n\n" + history,
     author="Tasos Katsoulas, John Giannelos",
     author_email="akatsoulas@mozilla.com, jgiannelos@mozilla.com",
-    url="https://github.com/mozilla/mozilla-django-oidc",
-    packages=["mozilla_django_oidc"],
+    url="https://github.com/work-projects-kirodh/mozilla-django-oidc-keycloak-fix.git",
+    packages=["mozilla_django_oidc_keycloak_fix"],
     include_package_data=True,
     install_requires=install_requirements,
     license="MPL 2.0",
     zip_safe=False,
-    keywords="mozilla-django-oidc",
+    keywords="mozilla-django-oidc-keycloak-fix",
     classifiers=[
         "Development Status :: 5 - Production/Stable",
         "Framework :: Django",
